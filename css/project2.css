@@ -1,0 +1,65 @@
+.div1
+{
+    background-color: darkgreen;
+    
+}
+body{
+    background-color: grey;
+}
+.box1{
+    height: 400px;
+    width:400px;
+    background-color: white;
+}
+.parent{
+    display: flex;
+    gap:50px;
+    margin:20px;
+
+}
+.img1{
+    height:100px;
+    width: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+.img2{
+    width:300px;
+    height: 300px;
+}
+.p1{
+    text-align: left;
+}
+.circle{
+    box-sizing: border-box;
+    height: 200px;
+    width:200px;
+    background-color:darkgreen ;
+    border-radius: 50%;
+    align:left;
+    padding:10px;
+    margin: 10px;
+}
+.img3{
+    max-height:80%;
+    max-width: 80%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    align-items: center;
+
+}
+.parent1{
+    display: flex;
+    
+    margin:20px;
+
+}
+.box2{
+    height: 300px;
+    width:300px;
+    background-color: white;
+}
