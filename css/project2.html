@@ -6,101 +6,336 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #mad{
+            font-size: 80px;
+            color: white;
+            margin-left: 20px;
+        }
+        #mad1{
+            font-size: 40px;
+            color: white;
+            margin-left: 30px;
+            margin-top: 25px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="div1">
-        <nobr>
-            <h1 style="color:white;">Amazon</h1>
+    <header>
+            <i class="fa-brands fa-aws" id="mad"></i>
+            <!-- <h1 style="color:white;">Amazon</h1> -->
+            <i class="fa-solid fa-location-dot" id="mad1"></i>
+            <p class="p"><b>Location</b></p>
+
             <form>
-                <input type="search">
+                <input type="search" placeholder="Search Amazon" class="search" size="80px">
             </form>
-        </nobr>
-    </div>
-    <div class="parent">
-        <div class="box1">
-            <p class="p1"> <b>Pick up where you left off..</b></p>
-            <iframe class="img1" src="https://m.media-amazon.com/images/I/61F0HhQSSyL._AC_SY110_.jpg"></iframe>
+            <i class="fa-solid fa-flag-usa" id="mad1"></i>
+            <p class="p" style="font-size: 20px;"><b>EN</b></p>
+            <p class="p" style="font-size: 20px;"><b>Accounts & lists</b></p>
+            <p class="p" style="font-size: 20px;"><b>ORDERS</b></p>
+            <i class="fa-solid fa-cart-shopping" id="mad1"></i>
+            <p class="p" style="font-size: 20px;"><b>CART</b></p>
 
-            <iframe class="img1" src="https://m.media-amazon.com/images/I/61mPkEspg8L._AC_SY110_.jpg"></iframe>
+    </header>
+   
+     
+        
+        <div class="parent">
+            <div class = "box1">
+                <h2>Pick up where you left off..</h2>
+                <div class="img-container">
+                    <div class="img-box">
+                        <img class="img1"   src = "./images/row1/r1b1a.jpg">
+                         <p>Olaplex</p>
+                    </div>
+                    <div class="img-box">
+                      <img class="img1" src = "./images/row1/r1b1b.png">
+                      <p>Fantastic Repair</p>
+                    </div>
+                    <div class="img-box">
+                      <img class="img1" src = "./images/row1/r1b1c.jpg">
+                        <p>TRi design</p>
+                    </div>
+                    <div class="img-box">
+                        <img class="img1" src = "./images/row1/r1b1d.jpg">
+                         <p>ogx extra sterngth</p>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="box1"> 
+            <h2>Deals in PC's..</h2>
+            <div class="img-box">
+                <img class="img2" src="./images/row1/r1b2.jpg">
+                <p>Shop now</p>
 
-            <iframe class="img1" src="https://m.media-amazon.com/images/I/71-sR1bro9L._AC_SY110_.jpg"></iframe>
-
-            <iframe class="img1" src="https://m.media-amazon.com/images/I/71WbKAS543L._AC_SY110_.jpg"></iframe>
+            </div>
 
         </div>
-        <div class="box1">
-            <p class="p1"> <b>Deals in PC's..</b></p>
-            <iframe class="img2"
-                src=" https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg">
-                </iframe>
+        <div class = "box1">
+            <h3>Score Black Friday Week deals</h3>
+            <div class="img-container">
+                <div class="img-box">
+                    <img class="img1"   src = "./images/row1/r1b3a.jpg">
+                     <p>Amazon basics</p>
+                </div>
+                <div class="img-box">
+                  <img class="img1" src = "./images/row1/r1b3b.jpg">
+                  <p>Fantastic Repair</p>
+                </div>
+                <div class="img-box">
+                  <img class="img1" src = "./images/row1/r1b3c.jpg">
+                    <p>TRi design</p>
+                </div>
+                <div class="img-box">
+                    <img class="img1" src = "./images/row1/r1b3d.jpg">
+                     <p>ogx extra sterngth</p>
+                </div>
+            </div>
+        </div>
+        <div class="box1"> 
+            <h3>Shop Black Friday deals</h3>
+            <div class="img-box">
+                <img class="img2" src="./images/row1/r1b4.jpg">
+                <p>Shop now</p>
 
-        </div>
-        <div class="box1">
-            <p class="p1"> <b>Small Gifts..</b></p>
-            <iframe class="img2"
-                src=" https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v2._SY304_CB573698005_.jpg">
-                </iframe>
-        </div>
-        <div class="box1">
-            <p class="p1"> <b>Black Friday deals..</b></p>
-            <iframe class="img2"
-                src=" https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BlackFriday24/Fuji_Black_Friday_Dashboard_card_1X_EN._SY304_CB542042483_.jpg">
-                </iframe>
-        </div>
-
-    </div>
-    <div class="parent">
-        <h1>Here come holiday specials..</h1> 
-      <br> 
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-      <div class="circle">
-        <img class = "img3" src="deal.png">
-      </div>
-    </div>
-    <div class = "parent1">
-        Related to items you have viewed..
-        <div class = "box2">
-            <iframe class="img2"
-            src="https://m.media-amazon.com/images/I/61Qgrb8YOqL._AC_SY200_.jpg">
-            </iframe>  
-        </div>
-        <div class = "box2">
-            <iframe class="img2"
-            src="https://m.media-amazon.com/images/I/61Qgrb8YOqL._AC_SY200_.jpg">
-            </iframe>  
-        </div>
-        <div class = "box2">
-            <iframe class="img2"
-            src="https://m.media-amazon.com/images/I/61Qgrb8YOqL._AC_SY200_.jpg">
-            </iframe>  
-        </div>
-        <div class = "box2">
-            <iframe class="img2"
-            src="https://m.media-amazon.com/images/I/61Qgrb8YOqL._AC_SY200_.jpg">
-            </iframe>  
-        </div>
-        <div class = "box2">
-            <iframe class="img2"
-            src="https://m.media-amazon.com/images/I/61Qgrb8YOqL._AC_SY200_.jpg">
-            </iframe>  
+            </div>
         </div>
     </div>
 
+       <div class="parent">
+
+         <div class="box1">
+            <h2>Must-see Black Friday Week deals</h2>
+            <div class="img-container">
+                <div class="img-box">
+                <img  class = "img1" src ="images/row2/r2b1a.jpg">
+                <p>Home</p>
+                </div>
+                <div class="img-box">
+                    <img class = "img1"  src ="images/row2/r2b1b.jpg">
+                    <p>Sports and outdoors</p>
+                    </div>
+                    <div class="img-box">
+                        <img  class = "img1"  src ="images/row2/r2b1c.jpg">
+                        <p>Beauty</p>
+                        </div>
+                        <div class="img-box">
+                            <img class = "img1"  src ="images/row2/r2b1d.jpg">
+                            <p>Headphone</p>
+                            </div>
+
+            </div>
+
+         </div>
+
+         <div class="box1">
+            <h2>Black Friday Week deals are here</h2>
+            <div class="img-container">
+                <div class="img-box">
+                <img  class = "img1" src ="images/row2/r2b2a.jpg">
+                <p>Home</p>
+                </div>
+                <div class="img-box">
+                    <img class = "img1"  src ="images/row2/r2b2b.jpg">
+                    <p>Sports and outdoors</p>
+                    </div>
+                    <div class="img-box">
+                        <img  class = "img1"  src ="images/row2/r2b2c.jpg">
+                        <p>Beauty</p>
+                        </div>
+                        <div class="img-box">
+                            <img class = "img1"  src ="images/row2/r2b2d.jpg">
+                            <p>Headphone</p>
+                            </div>
+            </div>
+            </div>
+            <div class="box1"> 
+                <h2>Deals in PC's..</h2>
+                <div class="img-box">
+                    <img class="img2" src="./images/row2/r2b3.jpg">
+                    <p>Shop now</p>
+    
+                </div>
+            </div>
+            <div class="box1"> 
+                <h2>Get your game on..</h2>
+                <div class="img-box">
+                    <img class="img2" src="./images/row2/r2b4.jpg">
+                    <p>Shop now</p>
+    
+                </div>
+            </div>
+
+       </div>
+       <div class="parent2">
+        <h1>Here come holiday specials..</h1>
+        <div class = "circle-container">
+        <div class="circle">
+            <img class = "img3" src="deal.png">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="./images/row3/r3c2.jpg">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="images/row3/r3c3.jpg">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="images/row3/r3c4.jpg">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="images/row3/r3c5.jpg">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="images/row3/r3c6.jpg">
+          </div>
+          <div class="circle">
+            <img class = "img3" src="images/row3/r3c7.jpg">
+          </div>
+        </div>
+       </div>
+
+    
+
+    <div class = "parent2">
+       <h2> Related to items you have viewed..</h2>
+        <div class="box2-con">
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r41.jpg">
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r42.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r43.jpg">
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r43.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r45.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r46.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r43.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r43.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r42.jpg"> 
+        </div>
+        <div class = "box2">
+            <img class="img4"  src="./images/row4/r410.jpg"> 
+        </div>
+        
+    </div>
+    </div>
+
+    <div class = "parent2">
+        <h2> More items to consider..</h2>
+         <div class="box2-con">
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b1.jpg">
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b2.jpg"> 
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b3.jpg">
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b4.jpg"> 
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b5.jpg"> 
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b6.jpg"> 
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b7.jpg"> 
+         </div>
+         <div class = "box2">
+             <img class="img4"  src="./images/row5/r5b8.jpg"> 
+         </div>
+         
+     </div>
+     </div>
+<!--row6-->
+    <div class="parent3" >
+        <h2>Deals on PC's and Gaming</h2>
+        <div class="img-container1" >
+            <div>
+                <img class=" img5"  src="./images/row6/r6b1.jpg">
+            </div>
+            <div>
+                <img class=" img5"  src="./images/row6/r6b2.jpg">
+            </div>
+            <div>
+                <img class=" img5"  src="./images/row6/r6b3.jpg">
+            </div>
+            <div>
+                <img class=" img5"  src="./images/row6/r6b4.jpg">
+            </div>
+            <div>
+                <img class=" img5"  src="./images/row6/r6b5.jpg">
+            </div>
+            
+        </div>
+
+
+
+    </div>
+<!-- row6 end -->
+ <div class="parent4">
+    <div class="content">
+        <h2>Get to Know Us</h2>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a>Amazon Science</a>	
+    </div>
+    <div class="content">
+        <h2>Make Money with Us</h2>
+        <a>Sell products on Amazon</a>
+        <a>Sell on Amazon Business</a>
+        <a>Sell apps on Amazon</a>
+        <a> Become an Affiliate</a>
+        <a> Advertise Your Products</a>
+        <a>Self-Publish with Us</a>
+        <a>Host an Amazon Hub</a>
+        <a> ›See More Make Money with Us</h2></a>
+    </div>
+    <div class="content">
+        <h2>Amazon Payment Products</h2>
+        <a >Amazon Business Card</a>
+        <a >Shop with Points</a>
+        <a >Reload Your Balance</a>
+        <a >Amazon Currency Converter</a>
+    
+
+    </div>
+    <div class="content">
+        <h2>Let Us Help You</h2>
+        <a>Amazon and COVID-19</a>
+        <a >Your Account</a>
+        <a >Your Orders</a>
+        <a >Shipping Rates & Policies</a>
+        <a >Returns & Replacements</a>
+        <a >Manage Your Content and Devices</a>
+        <a >Help</a>
+
+    </div>
+
+ </div>
 
 </body>
 
