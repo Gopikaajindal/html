@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    background-color: pink;
+}
+.h1{
+    margin-right: 650px;
+    font-size: 30px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.a{
+     text-decoration: none;
+     margin: 20px;
+     font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-left: 90px;
+    display: flex;
+
+}
+.img1{
+    margin-top: 30px;
+    height: 500px;
+    width:700px;
+}
+.box1{
+    height: 500px;
+    width: 300px;
+    background-color: aqua;
+    margin-top: 30px;
+    color: white;
+    padding-top: 70px;
+    padding-left:20px ;
+
+
+}
+#head{
+    font-size: 40px;
+}
+h1{
+    margin-bottom:20px ;
+}
